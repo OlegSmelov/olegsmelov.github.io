@@ -8,7 +8,7 @@ I've had to build a few computers for work, mainly to be used as Linux workstati
 
 ### New hardware is unproven hardware
 
-If you buy a new piece of hardware, you're more likely to encounter issues with both hardware and software. We've bought a couple of RTX 2080 Ti GPUs, and we've had problems with failing hardware and misbehaving drivers.
+If you buy a new piece of hardware the day it comes out, you're more likely to encounter issues with both hardware and software. We've bought a couple of RTX 2080 Ti GPUs, and we've had problems with failing hardware and misbehaving drivers.
 
 ### Memory
 
