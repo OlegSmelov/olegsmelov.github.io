@@ -28,7 +28,7 @@ I've recently learned that it might also matter which of the two slots of the sa
  
 Refer to motherboard's manual for what manufacturer recommends. Here's an example from the manual for ASUS TUF GAMING X570-PLUS:
 
-![Recommended memory configurations for X570 motherboard](/assets/x570-memory-configurations.png)
+![Recommended memory configurations for X570 motherboard]({{ "/assets/x570-memory-configurations.png" | absolute_url }})
 
 ### Run a benchmark
 
