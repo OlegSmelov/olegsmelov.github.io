@@ -85,7 +85,7 @@ void RootView::HandleKeyEvent(const content::NativeWebKeyboardEvent& event) {
 }
 ```
 
-Before we go further, I need to mention that methods in C++ have an implicit first parameter which is a pointer to the object (`this`). To the method above actually has two (`RootView *this, NativeWebKeyboardEvent &event`). This is what the method looks like in the disassembly:
+Before we go further, I need to mention that methods in C++ have an implicit first parameter which is a pointer to the object (`this`), so the method above actually has two (`RootView *this, NativeWebKeyboardEvent &event`). This is what the method looks like in the disassembly:
 
 ```assembly
 HandleKeyEvent proc near
