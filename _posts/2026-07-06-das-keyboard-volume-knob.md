@@ -34,7 +34,7 @@ I ordered mine from DigiKey, but Mouser also stocks it. I've also found them on 
 
 Getting into the keyboard is quite straightforward if you have the right bit for your screwdriver - Hex 2.5 mm. Desoldering the old part without destroying it turned out to be the most painful part of the process. Some parts of the encoder are made of plastic, so you can't just blast it with hot air.
 
-Another problem is that the mounting pins are pressed tightly against the holes in the PCB, creating enough friction that the part is held in place even if there were no solder left. I can see why they did this: any slack in the mounting position would introduce too much variability and the volume knob would not be placed correctly not to rub against the metal cutout for the knob.
+Another problem is that the mounting pins are pressed tightly against the holes in the PCB, creating enough friction that the part is held in place even if there were no solder left. I can see why they did this: any slack in the mounting position would introduce too much variability and the volume knob would not be placed correctly against the metal cutout for the knob.
 
 There's black tape / spacer on top of the encoder that you need to remove before desoldering. We'll put it back on the new one once it's soldered.
 
@@ -48,7 +48,7 @@ Desolder the old part. Good luck :)
 
 - Pull the mounting legs away from each other. The metal is soft enough this can be done with your bare hands.
 - Bend it just enough to pull metal cover off.
-- Pull away the plastic parts from the metal shaft. They are held together with 4 cylindrical plastic pins. Be super careful here because the contact pins that brush against the encoder ring will are exposed, and bending them would likely make the encoder not work properly!
+- Pull away the plastic parts from the metal shaft. They are held together with 4 cylindrical plastic pins. Be super careful here because the contact pins that brush against the encoder ring are exposed, and bending them would likely make the encoder not work properly!
 - Pull the plastic encoder ring and then also the little retention pin out.
 - Take the metal shaft and put it away - we'll use it later. The rest can be thrown away.
 
