@@ -10,7 +10,7 @@ After looking at both the old and the new PCBs I've spotted something: on the ne
 
 ![Old and new revision compared]({{ "/assets/dk-revision-comparison.jpg" | absolute_url }})
 
-Left side is the old PCB, right side is the new broken one. The slight differences in values are not important here (1.2 kOhm vs 820 Ohm), the important thing is that the two outside resistors are the two pull-up resistors, and the two middle ones are series resistors that connect the output pins of the encoder to the microcontroller.
+Left side is the old PCB, right side is the new broken one. The slight differences in values are not important here (1.2 kOhm vs 820 Ohm), the important thing is that the two outside resistors are pull-up resistors, and the two middle ones are series resistors that connect the output pins of the encoder to the microcontroller.
 
 On the old board, the pull-up resistors are both 4.7 kOhm, and the series resistors are 1.2 kOhm. On the new board one channel doesn't look right: the pull-up resistor is 820 Ohm, and the series resistor is 4.7 kOhm.
 
@@ -24,7 +24,7 @@ The bottom two resistors need to be switched around.
 
 ## Adding an RC filter
 
-What's missing for the debounce filter is a capacitor, and the existing series resistors should work great for the RC filter. Fortunately, to the right of the series resistors is a huge ground plane that we could solder to. I ordered some 0603 capacitors, ended up using 220 nF ones.
+What's missing for the debounce filter is a capacitor, and the existing series resistors should work great for the RC filter. Fortunately, to the right of the series resistors there is a huge ground plane that we could solder to. I ordered some 0603 capacitors, ended up using 220 nF ones.
 
 Here's an in-progress photo:
 
